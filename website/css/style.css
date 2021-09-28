@@ -40,6 +40,9 @@ h3{
 p{
     font-weight: 300;
 }
+i{
+    color: #166369;
+}
 .m-t{
 margin-top: 150px;
 }   
@@ -49,6 +52,7 @@ margin-top: 150px;
 .container{
     width: 70%;
     margin: auto;
+    text-align: center;
 }
 
 /* Header section */
@@ -121,3 +125,49 @@ nav ul li a{
     background-color: #166369;
     border:0;
 }
+
+/* About */
+.about .about-image {
+    width: 45%;
+    float: left;
+
+}
+.about-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+.about .about-content{
+    width:45%;
+    float: right;
+    text-align: left;
+    margin-top: 60px;
+}
+.about .line{
+    width:150px;
+    height: 6px;
+    margin-top: 50px;
+    background-color: #333;
+}
+.about p{
+    margin-top: 50px;
+
+}
+.about ul {
+    margin-top:50px;
+    list-style: none;
+}
+.about ul li {
+    margin: 10px 0;
+}
+.about .fa-li{
+    margin-left: -20px;
+}
+.social-icon {
+    margin-top: 50px;
+}
+.social-icon i{
+padding: 5px;
+font-size: 15px;
+border: 1px solid black ; 
+
+}  
